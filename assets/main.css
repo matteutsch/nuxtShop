@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
