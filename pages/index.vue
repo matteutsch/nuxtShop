@@ -19,6 +19,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title: "Nuxt-3-Home",
+  meta: [{ name: "description", content: "Nuxt-3-HomePage" }],
+});
+</script>
 
 <style lang="scss" scoped></style>
